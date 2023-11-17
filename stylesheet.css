@@ -1,0 +1,645 @@
+body{
+	background-color: lavenderblush;
+	max-width: 1200px;
+	margin: 0px; 
+}
+
+.全体 {
+	padding-left: 150px;
+	padding-right: 150px;
+	
+}
+	
+
+.ヘッダー {
+	display: flex;
+	position: fixed;
+	 z-index: 30;
+	top: 0px;
+	left: 0px;
+	background-color: white;
+	width: 1200px;
+	padding: 10px 10px 15px 15px;
+	
+	& .ロゴタイトル{font-family: "ab-roman", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+	  font-size: 20px;}	
+	.文字の装飾１{font-size:10px;}
+	
+	& .横{
+		display: flex;
+		padding-top: 15px;
+		padding-left: 150px;
+		gap: 150px;
+		font-weight: bold;
+		font-style: normal;
+		
+		& .ヘッダー１{
+	  color: gray;
+		 letter-spacing: 2px;
+		}
+		
+			& .ヘッダー２{
+	  color: gray;
+		 letter-spacing: 2px;
+		}
+		
+			& .ヘッダー３{
+	  color: gray;
+		 letter-spacing: 2px;
+		}
+		
+			& .ヘッダー４{
+	  color: gray;
+		 letter-spacing: 2px;
+		}
+	}
+}
+
+.タイトル大見出し {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 80px;
+	margin-bottom: 15px;
+}
+	
+.タイトル画像 {
+	width: 100%;
+}
+
+
+& .目次{
+	width: 300px;
+	border: 2px solid powderblue;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	background-color: lightcyan;
+	padding: 10px 10px 10px 10px;
+	color: steelblue;
+	
+	& .目次テキスト{
+		text-align: center;
+		border-bottom:1.5px solid;
+	  color: steelblue;}
+	
+	& .目次テキスト２{color:steelblue; }
+	
+	& .おすすめの観光名所{font-size: }
+	
+}
+	
+
+.観光名所大見出し {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	border-bottom:2px solid;
+ 
+    
+}
+
+
+.芦ノ湖大見出し {
+	font-size: 28px;
+	font-weight: bold;
+	border-left: 5px solid black;
+	padding: 5px 5px;
+	margin-bottom: 10px;
+	
+}
+
+.芦ノ湖画像 {
+	width: 100%;
+}
+
+.芦ノ湖周辺の観光スポット {
+	font-size: 20px;
+	margin-top: 50px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+
+.神社 {
+	display: flex;
+	
+	
+	& .神社画像 {
+		width: 40%;
+		padding:0px 20px 10px 0px;
+	}
+	
+	& .神社大見出し{
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+}
+
+.神社詳細 {
+	font-size: 14px;
+	background-color: whitesmoke;
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	gap: 40px;
+	margin-bottom: 50px;
+	
+	& .神社概要1 {
+		font-weight: bold;
+	}
+}
+
+
+
+.船 {
+	display: flex;
+	
+	
+	& .船画像 {
+		width: 40%;
+		padding:0px 20px 10px 0px;
+	}
+	
+	& .船大見出し{
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+}
+
+.船詳細 {
+	font-size: 14px;
+	background-color: whitesmoke;
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	gap: 40px;
+	margin-bottom: 80px;
+	
+	& .船概要1 {
+		font-weight: bold;
+	}
+}
+		
+		
+	
+	
+
+
+.大涌谷大見出し {
+	font-size: 28px;
+	font-weight: bold;
+	border-left: 5px solid black;
+	padding: 5px 5px;
+	margin-bottom: 10px;
+	
+}
+
+.大涌谷画像 {
+	width: 100%;
+}
+
+
+
+.大涌谷周辺の観光スポット {
+	font-size: 20px;
+	margin-top: 50px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+
+.ロープ {
+	display: flex;
+	
+	
+	& .ロープ画像 {
+		width: 40%;
+		padding:0px 20px 10px 0px;
+	}
+	
+	& .ロープ大見出し{
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+}
+
+
+.ロープ詳細 {
+	font-size: 14px;
+	background-color: whitesmoke;
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	gap: 40px;
+	margin-bottom: 50px;
+	
+	& .ロープ概要1 {
+		font-weight: bold;
+	}
+}
+
+
+.草原 {
+	display: flex;
+	
+	
+	& .草原画像 {
+		width: 40%;
+		padding:0px 20px 10px 0px;
+	}
+	
+	& .草原大見出し{
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+}
+
+.草原詳細 {
+	font-size: 14px;
+	background-color: whitesmoke;
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	gap: 40px;
+	margin-bottom: 80px;
+	
+	& .草原概要1 {
+		font-weight: bold;
+	}
+}
+
+
+
+
+
+
+.強羅大見出し {
+	font-size: 28px;
+	font-weight: bold;
+	border-left: 5px solid black;
+	padding: 5px 5px;
+	margin-bottom: 10px;
+	
+}
+
+.強羅画像 {
+	width: 100%;
+}
+
+.強羅周辺の観光スポット {
+	font-size: 20px;
+	margin-top: 50px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+
+.公園 {
+	display: flex;
+	
+	
+	& .公園画像 {
+		width: 40%;
+		padding:0px 20px 10px 0px;
+	}
+	
+	& .公園大見出し{
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+}
+
+.公園詳細 {
+	font-size: 14px;
+	background-color: whitesmoke;
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	gap: 40px;
+	margin-bottom: 50px;
+	
+	& .公園概要1 {
+		font-weight: bold;
+	}
+}
+
+
+
+.電車 {
+	display: flex;
+	
+	
+	& .電車画像 {
+		width: 40%;
+		padding:0px 20px 10px 0px;
+	}
+	
+	& .電車大見出し{
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+}
+
+.電車詳細 {
+	font-size: 14px;
+	background-color: whitesmoke;
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	gap: 40px;
+	margin-bottom: 100px;
+	
+	& .電車概要1 {
+		font-weight: bold;
+	}
+}
+
+
+
+.食べ物大見出し {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	border-bottom:2px solid;
+}
+
+
+
+.パン{
+	display: flex;
+	
+	
+	& .パン画像 {
+		width: 40%;
+		padding:0px 20px 10px 0px;
+	}
+	
+	& .パン大見出し{
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+}
+
+.パン詳細 {
+	font-size: 14px;
+	background-color: whitesmoke;
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	gap: 40px;
+	margin-bottom: 80px;
+	
+	& .パン概要1 {
+		font-weight: bold;
+	}
+}
+
+
+
+.そば{
+	display: flex;
+	
+	
+	& .そば画像 {
+		width: 40%;
+		padding:0px 20px 10px 0px;
+	}
+	
+	& .そば大見出し{
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+}
+
+.そば詳細 {
+	font-size: 14px;
+	background-color: whitesmoke;
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	gap: 40px;
+	margin-bottom: 80px;
+	
+	& .そば概要1 {
+		font-weight: bold;
+	}
+}
+
+
+
+.卵{
+	display: flex;
+	
+	
+	& .卵画像 {
+		width: 40%;
+		padding:0px 20px 10px 0px;
+	}
+	
+	& .卵大見出し{
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+}
+
+.卵詳細 {
+	font-size: 14px;
+	background-color: whitesmoke;
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	gap: 40px;
+	margin-bottom: 100px;
+	
+	& .卵概要1 {
+		font-weight: bold;
+	}
+}
+
+
+
+
+.モデルコース大見出し {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	border-bottom:2px solid;
+}
+
+.モデルコース {
+	background-color: whitesmoke;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	
+	& .モデル１ {
+	  font-weight: bold;
+		font-size: 18px;		
+	}
+	
+	& .文字の装飾2{
+	font-size: 14px;
+	font-weight: normal;}
+	
+	& .モデル横並び１{
+		display: flex;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		
+		& .arrow-bottom{
+		position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-color: #1E88E5;
+  clip-path: polygon(0 33%, 50% 33%, 50% 15%, 100% 50%, 50% 85%, 50% 67%, 0 67%);
+	transform: rotate(90deg);
+	margin-left: 425px;
+		}
+	
+		& .モデル2 {font-size: 14px;
+		text-align: left;}   
+
+	}
+	
+	& .モデル3 {
+		font-weight: bold;
+		font-size: 18px;
+	}
+	
+	& .神社画像2{
+		width: 30%
+	}
+	
+	& .モデル横並び2{
+		display: flex;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		
+		& .arrow-bottom{
+		position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-color: #1E88E5;
+  clip-path: polygon(0 33%, 50% 33%, 50% 15%, 100% 50%, 50% 85%, 50% 67%, 0 67%);
+	transform: rotate(90deg);
+	margin-left: 425px;
+		}
+	
+		& .モデル4 {font-size: 14px;
+		text-align: left;
+		margin-top: 12px;}   
+
+	}
+	
+& .モデル5 {
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	& .パン画像2{
+		width: 30%;
+	}
+	
+
+	& .モデル横並び3{
+		display: flex;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		
+		& .arrow-bottom{
+		position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-color: #1E88E5;
+  clip-path: polygon(0 33%, 50% 33%, 50% 15%, 100% 50%, 50% 85%, 50% 67%, 0 67%);
+	transform: rotate(90deg);
+	margin-left: 425px;
+		}
+	
+		& .モデル6 {font-size: 14px;
+		text-align: left;
+		margin-top: 12px;}   
+
+	}	
+	
+& .モデル7 {
+		font-weight: bold;
+		font-size: 18px;	}	
+	
+	& .大涌谷画像2 {width: 30%;}
+	
+	
+	& .モデル横並び4{
+		display: flex;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		
+		& .arrow-bottom{
+		position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-color: #1E88E5;
+  clip-path: polygon(0 33%, 50% 33%, 50% 15%, 100% 50%, 50% 85%, 50% 67%, 0 67%);
+	transform: rotate(90deg);
+	margin-left: 425px;
+		}
+	
+		& .モデル8 {font-size: 14px;
+		text-align: left;
+		margin-top: 4px;
+		margin-left: 5px;}   
+
+	}
+	
+& .モデル9 {
+		font-weight: bold;
+		font-size: 18px;	}		
+	
+	& .強羅画像2{width: 30%;}
+	
+	& .モデル横並び5{
+		display: flex;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		
+		& .arrow-bottom{
+		position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-color: #1E88E5;
+  clip-path: polygon(0 33%, 50% 33%, 50% 15%, 100% 50%, 50% 85%, 50% 67%, 0 67%);
+	transform: rotate(90deg);
+	margin-left: 425px;
+		}
+	
+		& .モデル10 {font-size: 14px;
+		text-align: left;
+		margin-top: 4px;
+		margin-left: 5px;}  
+	}
+	
+	& .モデル11 {
+		font-weight: bold;
+		font-size: 18px;	}		
+	
+	& .そば画像2{
+		width: 30%;}
+	
+}
+
+.フッター {
+		margin-top: 100px;
+	  margin-bottom: 50px;
+	  display: flex;
+	  justify-content:space-around;
+	  color:gray;
